@@ -58,6 +58,12 @@ layout: default
                     {% else %}
                     <p>{{ta.name}}</p>
                     {% endif %}
+                    {% if ta.email %}
+                    <p style="font-size: 12px; margin-top: 2px;"><a href="mailto:{{ta.email}}">{{ta.email}}</a></p>
+                    {% endif %}
+                    {% if ta.office_hours %}
+                    <p style="font-size: 12px; margin-top: 2px; color: #666;">{{ta.office_hours}}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
