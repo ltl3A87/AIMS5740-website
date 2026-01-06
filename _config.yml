@@ -6,7 +6,8 @@ course_description: |
 course_semester: "Spring 2025"
 
 baseurl: "/AIMS5740-website" # the subpath of your site, e.g. /blog/
-url: "http:/ltl3A87.github.io/" # the base hostname & protocol for your site
+url: "https://ltl3A87.github.io" # the base hostname & protocol for your site
+repository: "ltl3A87/AIMS5740-website"
 
 schoolname: "CUHK"
 schoolurl: "https://www.cuhk.edu.hk"
