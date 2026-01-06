@@ -5,24 +5,29 @@ instructors:
 
 teaching_assistants:
   - name: Li Tianle
+    email: tianleli@link.cuhk.edu.hk
     profile_pic: /_images/pp/tianleli.jpg
     webpage: https://ltl3a87.github.io/tianleli.github.io
     office_hours: Tuesday 14:00-15:00 (Room 904, SHB)
 
   - name: Song Han
+    email: hansong@link.cuhk.edu.hk
     profile_pic: /_images/pp/songhan.jpg
     office_hours: Tuesday 10:00-11:00 (Room 904, SHB)
 
   - name: Li Yixing
+    email: yixingli@link.cuhk.edu.hk
     profile_pic: /_images/pp/yixing.jpg
     office_hours: Tuesday 15:00-16:00 (Room 904, SHB)
 
   - name: Chen Jiacheng
+    email: jiachengchen@link.cuhk.edu.hk
     profile_pic: /_images/pp/jiacheng.jpg
     webpage: https://jc-chen1.github.io/
     office_hours: Monday 15:00-16:00 (Room 1004, SHB)
 
   - name: Wang Puyi
+    email: puyi.wang@link.cuhk.edu.hk
     profile_pic: /_images/pp/puyi.jpg
     webpage: https://wangpuyi.github.io/
     office_hours: Thursday 10:00-11:00 (Room 904, SHB)
