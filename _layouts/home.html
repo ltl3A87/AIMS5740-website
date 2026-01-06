@@ -48,25 +48,25 @@ layout: default
         </div>
 
         <div style="width:65%; float: left">
-            <div class="profile-pic-gallary ">
-                <h2>Teaching Assistants</h2>
-                {% for ta in site.data.people.teaching_assistants %}
-                <div class="image--cover-container">
-                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
+            <h2>Teaching Assistants</h2>
+            {% for ta in site.data.people.teaching_assistants %}
+            <div style="display: flex; align-items: center; margin-bottom: 15px; padding: 10px; border-bottom: 1px solid #eee;">
+                <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover" style="width: 60px; height: 60px; border-radius: 50%; margin-right: 15px; object-fit: cover;">
+                <div>
                     {% if ta.webpage %}
-                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                    <p style="margin: 0; font-weight: bold;"><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
                     {% else %}
-                    <p>{{ta.name}}</p>
+                    <p style="margin: 0; font-weight: bold;">{{ta.name}}</p>
                     {% endif %}
                     {% if ta.email %}
-                    <p style="font-size: 12px; margin-top: 2px;"><a href="mailto:{{ta.email}}">{{ta.email}}</a></p>
+                    <p style="font-size: 13px; margin: 3px 0;"><a href="mailto:{{ta.email}}">{{ta.email}}</a></p>
                     {% endif %}
                     {% if ta.office_hours %}
-                    <p style="font-size: 12px; margin-top: 2px; color: #666;">{{ta.office_hours}}</p>
+                    <p style="font-size: 13px; margin: 3px 0; color: #666;">Office Hours: {{ta.office_hours}}</p>
                     {% endif %}
                 </div>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div>
     </div>
 </div>
