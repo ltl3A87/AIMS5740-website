@@ -4,14 +4,25 @@ instructors:
     webpage: https://ych133.github.io
 
 teaching_assistants:
-  - name: Zhang Jihai
-    profile_pic: /_images/pp/jihaizhang.jpg
-    webpage: https://majordavidzhang.github.io
-
   - name: Li Tianle
     profile_pic: /_images/pp/tianleli.jpg
     webpage: https://ltl3a87.github.io/tianleli.github.io
+    office_hours: Tuesday 14:00-15:00 (Room 904, SHB)
 
-  - name: Li Chengxi
-    profile_pic: /_images/pp/chengxili.jpg
-    webpage: https://baigker.github.io
+  - name: Song Han
+    profile_pic: /_images/pp/songhan.jpg
+    office_hours: Tuesday 10:00-11:00 (Room 904, SHB)
+
+  - name: Li Yixing
+    profile_pic: /_images/pp/yixing.jpg
+    office_hours: Tuesday 15:00-16:00 (Room 904, SHB)
+
+  - name: Chen Jiacheng
+    profile_pic: /_images/pp/jiacheng.jpg
+    webpage: https://jc-chen1.github.io/
+    office_hours: Monday 15:00-16:00 (Room 1004, SHB)
+
+  - name: Wang Puyi
+    profile_pic: /_images/pp/puyi.jpg
+    webpage: https://wangpuyi.github.io/
+    office_hours: Thursday 10:00-11:00 (Room 904, SHB)
