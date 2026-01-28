@@ -11,7 +11,7 @@ hide_from_announcments: false
 
 # optional - links to materials (slides, notes, code, etc.)
 links: 
-    - url: /static_files/presentations/lecture2_data.pptx
+    - url: /static_files/presentations/lecture2_data.pdf
       name: slides
 ---
 
