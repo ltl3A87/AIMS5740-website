@@ -1,1 +1,3 @@
-
+policies:
+  - "Late submissions within 2 weeks will receive a 20% mark deduction."
+  - "Submissions more than 2 weeks late will not be accepted."
