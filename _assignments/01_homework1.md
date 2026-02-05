@@ -3,9 +3,7 @@ type: assignment
 date: 2026-02-05T14:00:00+8:00
 title: "Assignment 1: SFT Practice for Text"
 
-links: 
-    - url: /static_files/assignments/AIMS5740_Homework1_SFT_Practice.pdf
-      name: notes
+pdf: /static_files/assignments/AIMS5740_Homework1_SFT_Practice.pdf
 
 # optional - attachment file (zip, code, etc.)
 # attachment: /static_files/assignments/hw1_starter_code.zip
