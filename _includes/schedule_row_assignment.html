@@ -13,6 +13,12 @@
     {% endif %}
 </div>
 <div class="col col-4" data-label="Course Material">
+    {% if include.event.pdf %}
+    [<a href="{{ include.event.pdf | prepend: site.baseurl }}">pdf</a>]
+    {% endif %}
+    {% if include.event.attachment %}
+    [<a href="{{ include.event.attachment | prepend: site.baseurl }}">attachment</a>]
+    {% endif %}
     {% if include.event.content != '' %}
     {{ event.content }}
     {% endif %}
