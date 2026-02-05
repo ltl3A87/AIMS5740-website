@@ -4,7 +4,11 @@
     <br class="date-spliter" />{{ include.event.date | date: "%A" }}
 </div>
 <div class="col col-2" style="font-weight: bold" data-label="Description">
+    {% if include.event.pdf %}
+    <a href="{{ include.event.pdf | prepend: site.baseurl }}">{{ include.event.title }}</a> released!
+    {% else %}
     {{ include.event.title }} released!
+    {% endif %}
     {% if include.event.due_event %}
     <br/><span style="font-weight: normal; color: #8a6d3b;">Due: {{ include.event.due_event.date | date: site.dateformat }} {{ include.event.due_event.date | date: "%H:%M" }}</span>
     {% endif %}
@@ -13,9 +17,6 @@
     {% endif %}
 </div>
 <div class="col col-4" data-label="Course Material">
-    {% if include.event.pdf %}
-    [<a href="{{ include.event.pdf | prepend: site.baseurl }}">pdf</a>]
-    {% endif %}
     {% if include.event.attachment %}
     [<a href="{{ include.event.attachment | prepend: site.baseurl }}">attachment</a>]
     {% endif %}
