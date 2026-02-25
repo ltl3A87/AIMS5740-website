@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2026-02-11T18:30:00+8:00
+date: 2026-02-25T18:30:00+8:00
 title: "Lecture 6: Data & Compute"
 
 # optional - brief summary shown on the lectures page
