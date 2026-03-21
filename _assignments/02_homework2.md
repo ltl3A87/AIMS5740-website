@@ -1,6 +1,6 @@
 ---
 type: assignment
-date: 2026-03-11T14:00:00+8:00
+date: 2026-03-20T14:00:00+8:00
 title: "Assignment 2: DreamBooth Fine-Tuning Practice"
 
 pdf: /static_files/assignments/aims5760_homework2_.pdf
@@ -25,4 +25,4 @@ Please download the assignment PDF and complete all required tasks before the de
 
 **Due:** April 3, 2026 (23:59)
 
-**Submit link later**
+**[Submit Assignment 2 here](https://docs.google.com/forms/d/e/1FAIpQLSey5SNR9tqXfAa2qX9bHPJyNP2HUOXAyTC2LKAOofKTooYXeQ/viewform?usp=publish-editor)**
