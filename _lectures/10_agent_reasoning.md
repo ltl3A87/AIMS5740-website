@@ -11,8 +11,8 @@ hide_from_announcments: false
 
 links:
     - url: /static_files/presentations/lecture9-agent.pdf
-      name: slides (v1)
+      name: Agent
     - url: /static_files/presentations/lecture9-Reasoning.pdf
-      name: slides (v2)
+      name: Reasoning
 ---
 
