@@ -12,6 +12,8 @@ hide_from_announcments: false
 links:
     - url: https://us05web.zoom.us/j/84103980441?pwd=czGLSammpm9PlqNyQWq4DF8WS50vQa.1
       name: Join Zoom Meeting
+    - url: /static_files/presentations/lecture10-test_time_scaling_grpo_intro.pdf
+      name: Slides
 ---
 
 **Join Zoom Meeting:** https://us05web.zoom.us/j/84103980441?pwd=czGLSammpm9PlqNyQWq4DF8WS50vQa.1  
